@@ -1,6 +1,14 @@
-// 身長・体重の定数宣言・値の代入
-let bodyWeight = 68;
-let bodyLength = 1.7;
+// 定数宣言
+let bodyWeight;
+let bodyLength;
+let BMI;
+
+// 身長・体重の変数に値を代入
+bodyWeight = 68;
+bodyLength = 1.7;
+
+// BMIを計算
+BMI = bodyWeight / (bodyLength * bodyLength);
 
 // コンソールへの出力
-console.log(bodyWeight / (bodyLength * bodyLength));
+console.log(BMI);
