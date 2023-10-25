@@ -7,5 +7,5 @@ const text = document.getElementById('text');
 // ボタンがクリックされたときにイベント処理を実行する
 btn.addEventListener('click', () => {
   // テキストのコメントを以下に置き換える
-  text.textContent = 'ボタンをクリックしました。'
+  text.textContent = 'ボタンをクリックしました'
 });
